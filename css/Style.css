@@ -859,6 +859,14 @@ h3 {
   margin: 100px auto;
 }
 
+.contacts{
+  color: #000000;
+}
+
+.contacts-footer{
+  color: #ffffff;
+}
+
 .accordian .card{
   box-shadow: var(--shadow);
   margin-bottom: 20px;
