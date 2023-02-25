@@ -882,6 +882,7 @@ h3 {
 .accordian .card .card-header h3{
   color: var(--white);
   position: relative;
+  padding-right: 18px;
 }
 .accordian .card .card-header {
   position: relative;
