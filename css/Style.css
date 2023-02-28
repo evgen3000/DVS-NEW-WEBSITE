@@ -729,10 +729,17 @@ h3 {
  17. =validator-school
 ---------------------------------*/
 .validator-school-section {
+  background-image: linear-gradient(to bottom, #000000 0%, #050505 8%, #0a0a0a 17%, #0f0f0f 25%, #141414 33%, #1a1a1a 42%, #1f1f1f 50%, #242424 58%, #292929 67%, #2e2e2e 75%, #333333 83%, #383838 92%);
+  min-height: 380px;
+  padding: 80px 0;
+}
+
+.ambassador-school-section{
   background-image: linear-gradient(to left top, #000000, #0e0908, #17120e, #1a1912, #1b2018, #1a221b, #1a251f, #192723, #192522, #182420, #18221f, #17211e);
   min-height: 380px;
   padding: 80px 0;
 }
+
 .validator-text h1 {
   font-size: 75px;
   font-weight: 700;
