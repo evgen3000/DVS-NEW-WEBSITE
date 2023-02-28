@@ -152,3 +152,32 @@ window.addEventListener('scroll', function () {
     let windowPosition = window.scrollY > 200;
     header.classList.toggle('scrolling-active', windowPosition);
   })
+
+
+  /*---------------------------------
+modal boxes for courses
+-----------------------------------*/
+
+let modals = document.getElementsByClassName("curses-modal");
+let spans = document.getElementsByClassName("close-curses-modal");
+
+function openCursesModalBox(boxNum) {
+	modals[boxNum-1].style.display = "block";
+}
+
+for (let i = 0; i < spans.length; i++) {
+    spans[i].onclick = function() {
+        modals[i].style.display = "none";
+        event.stopPropagation();
+        event.preventDefault();
+    }
+}
+
+window.onclick = function(event) {
+    event.preventDefault();
+    for (let i = 0; i < modals.length; i++) {
+        if (event.target == modals[i]) {
+            modals[i].style.display = "none";
+        }
+    }
+}
