@@ -1009,3 +1009,11 @@ textarea.form-control {
   top: 0;
   color: var(--white);
 }
+
+/*-------------------------------
+ 28. =main wrapper
+---------------------------------*/
+
+.main-wrapper {
+  background-color:#000000
+}
