@@ -28,6 +28,7 @@
 25. =bai section
 26. =course details section
 27. =contact section
+28. =curses dialog window
 ------------------------------------------------------------*/
 
 /* ------------------------
@@ -728,10 +729,17 @@ h3 {
  17. =validator-school
 ---------------------------------*/
 .validator-school-section {
+  background-image: linear-gradient(to bottom, #000000 0%, #050505 8%, #0a0a0a 17%, #0f0f0f 25%, #141414 33%, #1a1a1a 42%, #1f1f1f 50%, #242424 58%, #292929 67%, #2e2e2e 75%, #333333 83%, #383838 92%);
+  min-height: 380px;
+  padding: 80px 0;
+}
+
+.ambassador-school-section{
   background-image: linear-gradient(to left top, #000000, #0e0908, #17120e, #1a1912, #1b2018, #1a221b, #1a251f, #192723, #192522, #182420, #18221f, #17211e);
   min-height: 380px;
   padding: 80px 0;
 }
+
 .validator-text h1 {
   font-size: 75px;
   font-weight: 700;
@@ -882,6 +890,7 @@ h3 {
 .accordian .card .card-header h3{
   color: var(--white);
   position: relative;
+  padding-right: 18px;
 }
 .accordian .card .card-header {
   position: relative;
@@ -1008,4 +1017,98 @@ textarea.form-control {
   left: 0;
   top: 0;
   color: var(--white);
+}
+
+
+/*-------------------------------
+ 28. =curses dialog window
+---------------------------------*/
+
+/* Style for the modal */
+.curses-modal {
+	display: none; /* Hide the modal box by default */
+	position: fixed; /* Position the modal box */
+	z-index: 1; /* Set the z-index of the modal box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* Enable scrolling if needed */
+	background-color: rgba(0,0,0,0.4); /* Add a dark overlay */
+  overflow: hidden;
+}
+
+/* Style the modal content */
+.curses-modal-content {
+  position: relative;
+	background-color: #fefefe; /* Set a white background color */
+	margin: 15% auto; /* Center the modal box vertically and horizontally */
+	padding: 30px;
+	border: 1px solid #888;
+	width: 80%; /* Set the width of the modal content */
+  border-radius: 10px;
+  max-width: 1100px;
+}
+
+/* Style the close button */
+.close-curses-modal {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+
+.close-curses-modal:hover,
+.close-curses-modal:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.curses-modal h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.curses-modal p {
+  font-size: 20px;
+}
+
+.courses-model-btn-holder {
+  text-align: center;
+}
+
+/* Style for button when hovered */
+
+.buy-course-btn {
+  background-color: #d69317;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 15px;
+}
+
+.buy-course-btn:hover {
+  background-color: #f39c12;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.buy-course-btn:active {
+  background-color: #e67e22;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transform: scale(0.95);
 }
