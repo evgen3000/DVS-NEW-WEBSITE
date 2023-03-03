@@ -1112,3 +1112,12 @@ textarea.form-control {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transform: scale(0.95);
 }
+
+
+/*-------------------------------
+ 29. =main wrapper
+---------------------------------*/
+
+.main-wrapper {
+  background-color:#000000
+}
