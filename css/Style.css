@@ -1082,38 +1082,6 @@ textarea.form-control {
   text-align: center;
 }
 
-/* Style for button when hovered */
-
-.buy-course-btn {
-  background-color: #d69317;
-  border: none;
-  color: white;
-  padding: 12px 24px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 26px;
-  font-weight: bold;
-  border-radius: 50px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  transition: all 0.2s ease;
-  margin-top: 15px;
-}
-
-.buy-course-btn:hover {
-  background-color: #f39c12;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-  transform: translateY(-2px);
-}
-
-.buy-course-btn:active {
-  background-color: #e67e22;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  transform: scale(0.95);
-}
-
-
 /*-------------------------------
  29. =main wrapper
 ---------------------------------*/
