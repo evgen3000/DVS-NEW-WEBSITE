@@ -658,10 +658,17 @@ h3 {
   background-color: var(--bg-dark);
   padding: 60px 0;
   color: var(--black-100);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .footer-item {
   width: 25%;
   padding: 0 15px;
+  flex: 1;
+  text-align: center;
+  margin: 1rem;
 }
 .footer-item h2 {
   color: var(--main-color);
@@ -673,6 +680,7 @@ h3 {
 .footer-item p {
   font-size: 16px;
   color: var(--dark-700);
+  text-align: left;
 }
 .footer-about .social-links {
   margin-top: 20px;
@@ -698,25 +706,17 @@ h3 {
   text-transform: capitalize;
   font-size: 16px;
   color: inherit;
+
 }
 .footer-contact p {
   margin: 0 0 15px;
   position: relative;
-  padding-left: 30px;
-}
-.footer-contact p i {
-  position: absolute;
-  left: 0;
-  top: 5px;
-}
-.footer-newsletter .form-control {
-  margin-bottom: 15px;
   text-align: center;
 }
-.footer-newsletter .btn {
-  height: 45px;
-  width: 100%;
+.footer-contact p i {
+  padding-right: 10px;
 }
+
 .copy {
   font-size: 18px;
   text-align: center;
