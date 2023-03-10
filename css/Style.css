@@ -730,7 +730,8 @@ h3 {
 ---------------------------------*/
 .validator-school-section {
   background: rgb(33,16,45);
-  background: linear-gradient(225deg, rgba(33,16,45,1) 7%, rgba(37,18,48,1) 15%, rgba(40,20,54,1) 22%, rgba(44,23,59,1) 29%, rgba(45,25,59,1) 37%, rgba(48,27,62,1) 47%, rgba(45,25,59,1) 56%, rgba(37,13,51,1) 64%, rgba(28,8,40,1) 74%, rgba(21,5,31,1) 83%, rgba(18,3,27,1) 92%, rgba(0,0,0,1) 100%);min-height: 380px;
+  background: linear-gradient(225deg, rgba(33,16,45,1) 7%, rgba(37,18,48,1) 15%, rgba(40,20,54,1) 22%, rgba(44,23,59,1) 29%, rgba(45,25,59,1) 37%, rgba(48,27,62,1) 47%, rgba(45,25,59,1) 56%, rgba(37,13,51,1) 64%, rgba(28,8,40,1) 74%, rgba(21,5,31,1) 83%, rgba(18,3,27,1) 92%, rgba(0,0,0,1) 100%);
+  min-height: 380px;
   padding: 80px 0;
 }
 
@@ -1051,7 +1052,7 @@ textarea.form-control {
 }
 /* Style the close button */
 .close-curses-modal {
-	color: #aaa;
+	color: #c7c7c7;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
@@ -1061,7 +1062,7 @@ textarea.form-control {
 }
 .close-curses-modal:hover,
 .close-curses-modal:focus {
-	color: rgb(0, 0, 0);
+	color: #ffffff;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -1072,8 +1073,8 @@ textarea.form-control {
   font-weight: 700;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-bottom: 2px solid black;
-  color: #000000;
+  background: var(--main-color);
+  color: #ffffff;
 }
 .curses-modal p {
   font-size: 20px;
