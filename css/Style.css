@@ -729,7 +729,8 @@ h3 {
  17. =validator-school
 ---------------------------------*/
 .validator-school-section {
-  background-image: linear-gradient(to bottom, #000000 0%, #050505 8%, #0a0a0a 17%, #0f0f0f 25%, #141414 33%, #1a1a1a 42%, #1f1f1f 50%, #242424 58%, #292929 67%, #2e2e2e 75%, #333333 83%, #383838 92%);
+  background: rgb(33,16,45);
+  background: linear-gradient(225deg, rgba(33,16,45,1) 7%, rgba(37,18,48,1) 15%, rgba(40,20,54,1) 22%, rgba(44,23,59,1) 29%, rgba(45,25,59,1) 37%, rgba(48,27,62,1) 47%, rgba(45,25,59,1) 56%, rgba(37,13,51,1) 64%, rgba(28,8,40,1) 74%, rgba(21,5,31,1) 83%, rgba(18,3,27,1) 92%, rgba(0,0,0,1) 100%);
   min-height: 380px;
   padding: 80px 0;
 }
@@ -1037,22 +1038,21 @@ textarea.form-control {
 	background-color: rgba(0,0,0,0.4); /* Add a dark overlay */
   overflow: hidden;
 }
-
 /* Style the modal content */
 .curses-modal-content {
   position: relative;
 	background-color: #fefefe; /* Set a white background color */
 	margin: 15% auto; /* Center the modal box vertically and horizontally */
-	padding: 30px;
 	border: 1px solid #888;
 	width: 80%; /* Set the width of the modal content */
   border-radius: 10px;
   max-width: 1100px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-
 /* Style the close button */
 .close-curses-modal {
-	color: #aaa;
+	color: #c7c7c7;
 	float: right;
 	font-size: 28px;
 	font-weight: bold;
@@ -1060,26 +1060,25 @@ textarea.form-control {
   top: 5px;
   right: 15px;
 }
-
 .close-curses-modal:hover,
 .close-curses-modal:focus {
-	color: black;
+	color: #ffffff;
 	text-decoration: none;
 	cursor: pointer;
 }
-
 .curses-modal h2 {
   font-size: 32px;
   text-align: center;
-  margin-bottom: 25px;
+  padding: 10px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: var(--main-color);
+  color: #ffffff;
 }
-
 .curses-modal p {
   font-size: 20px;
-}
-
-.courses-model-btn-holder {
-  text-align: center;
+  padding: 30px;
 }
 
 /*-------------------------------
