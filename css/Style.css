@@ -1079,6 +1079,7 @@ textarea.form-control {
 .curses-modal p {
   font-size: 20px;
   padding: 30px;
+  padding-top: 20px;
 }
 
 /*-------------------------------
@@ -1087,4 +1088,17 @@ textarea.form-control {
 
 .main-wrapper {
   background-color:#000000
+}
+
+/*-------------------------------
+ 30. =course logo
+---------------------------------*/
+
+.course_logo {
+  opacity: 0.8; /* set the initial opacity */
+  transition: opacity 0.5s; /* add a transition effect */
+}
+
+.course_logo:hover {
+  opacity: 1; /* change the opacity on hover */
 }
